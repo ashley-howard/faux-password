@@ -169,6 +169,10 @@ body {
     width: 100vw;
 }
 
-.reset {
+#main * {
+    margin: 5px 0;
+}
+
+#reset-text {
     display: none;
 }

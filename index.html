@@ -16,13 +16,13 @@
     <section id="main">
         <h1>This is a hidden page</h1>
         <p>It stays "logged in", even when you refresh</p>
-        <button onclick="resetForm()">Reset</button>
-        <p class="reset">Refresh the page</p>
+        <button onclick="resetForm()">Log out</button>
+        <p id="reset-text">Refresh the page</p>
     </section>
 
     <div id="password-display">
         <input id="password" type="text">
-        <button onclick="passwordSubmit()">Submit</button>
+        <button onclick="passwordSubmit()" id="password-btn">Submit</button>
 
         <p>Password set to "password"</p>
     </div>
